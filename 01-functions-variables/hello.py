@@ -1,5 +1,6 @@
-# Ask user for their name
-name = input("What's your name? ")
+# Ask user for their name, remove whitespace from str and capitalize first letter
+name = input("What's your name? ").strip().title()
+
 
 # Say hello to user
-print(f"hello, {name.strip().title()}")
+print(f"hello, {name}", end="")
